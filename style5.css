@@ -1,0 +1,51 @@
+.start5 {
+  position: fixed;
+  position: absolute;
+  top: 24.4%;
+  left: 73%;
+  cursor: pointer;
+  border: 1px solid rgb(6, 253, 47);
+  background-color: rgb(6, 253, 47);
+  box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
+}
+
+
+.gaz5 {
+  position: absolute;
+  top: 67%;
+  left: 55%;
+  border: none;
+  cursor: pointer;
+}
+
+.tormoz5 {
+  position: absolute;
+  top: 66%;
+  left: 42.6%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .gaz5,
+.container .tormoz5 {
+  background-color: white;
+  box-shadow: 1px 5px 5px 1px white;
+}
+
+.start5:hover,
+.container .gaz5:hover,
+.container .tormoz5:hover {
+  background-color: rgb(253, 76, 6);
+  box-shadow: 1px 5px 5px 1px rgb(253, 43, 6);
+}
+
+
+.tank {
+  font-size: 12px;
+  padding-left: 3px;
+  line-height: 30px;
+  border: 2px solid #696969;
+  border-radius: 9px 2px;
+  /* align-items:center; */
+  text-align: center;
+}

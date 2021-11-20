@@ -1,0 +1,258 @@
+h1 {
+  padding-left: 190px;
+  text-shadow: 3px 2px 3px rgb(63, 71, 64);
+  ;
+}
+.buttons {
+  position: relative;
+  padding-top: 1px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: rgb(122, 131, 123);
+  box-shadow: 3px 3px 15px 4px rgb(63, 71, 64);
+}
+
+.container {
+  padding-top: 0px;
+}
+
+
+#image > img {
+  float: left;
+  margin-right: 30px;
+}
+/* #character, */
+#image,
+#myGauge {
+  overflow: hidden;
+  
+}
+
+.character,
+.dimensions {
+  display: inline-block;
+}
+
+.start1 {
+  position: fixed;
+  position: absolute;
+  top: 40%;
+  left: 290px;
+  cursor: pointer;
+  border: 1px solid rgb(6, 253, 47);
+  background-color: rgb(6, 253, 47);
+  box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
+}
+
+
+.gaz1 {
+  position: absolute;
+  top: 58%;
+  left: 24.4%;
+  border: none;
+  cursor: pointer;
+}
+
+.tormoz1 {
+  position: absolute;
+  top: 62%;
+  left: 12%;
+  cursor: pointer;
+  border: none;
+}
+
+.container .gaz1,
+.container .tormoz1 {
+  /* background-color: white;
+  box-shadow: 1px 5px 5px 1px white; */
+  background-color: rgb(245, 209, 7);
+  box-shadow: 1px 5px 5px 1px rgb(209, 245, 5);
+}
+
+.start1:hover,
+.container .gaz1:hover,
+.container .tormoz1:hover {
+  background-color: rgb(253, 76, 6);
+  box-shadow: 1px 5px 5px 1px rgb(253, 43, 6);
+}
+
+
+.gauge {
+  width: 8%;    /* size image */
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gauge__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #009578;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gauge__cover {
+  width: 75%;
+  height: 150%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+}
+
+.tank {
+  font-size: 12px;
+  padding-left: 3px;
+  line-height: 30px;
+  border: 2px solid #696969;
+  border-radius: 9px 2px;
+  /* align-items:center; */
+  text-align: center;
+}
+
+.addFuel {
+  cursor: pointer;
+}
+
+.dimen {
+  padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 200%;
+  max-width: 600px;
+  padding-top: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.start{
+  position: fixed;
+  position: absolute;
+  top: 19%;
+  left: 48.9%;
+  cursor: pointer;
+   border: 1px solid rgb(6, 253, 47);
+   background-color: rgb(6, 253, 47);
+   box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
+}
+
+.place .gaz {
+  position: absolute;
+  top: 45.6%;
+  left: 32.3%;
+  border: none;
+  cursor: pointer;
+}
+
+.place .tormoz {
+  position: absolute;
+  top: 55.8%;
+  left: 18.3%;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.container .gaz:hover:hover,
+.container .tormoz:hover {
+  background-color: rgb(253, 76, 6);
+  box-shadow: 1px 5px 5px 1px rgb(253, 43, 6);
+}
+
+.container .gaz,
+.container .tormoz {
+  background-color: white;
+  box-shadow: 1px 5px 5px 1px white;
+}
+
+
