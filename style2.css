@@ -1,35 +1,33 @@
 .start2 {
   position: fixed;
   position: absolute;
-  top: 46%;
-  left: 51%;
+  top: 68%;
+  left: 290px;
   cursor: pointer;
   border: 1px solid rgb(6, 253, 47);
   background-color: rgb(6, 253, 47);
   box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
 }
 
-
-.gaz2 {
+.gaz1,
+.tormoz1 {
+  top: 68%;
   position: absolute;
-  top: 66%;
-  left: 48%;
   border: none;
   cursor: pointer;
 }
 
-.tormoz2 {
-  position: absolute;
-  top: 61%;
-  left: 39%;
-  cursor: pointer;
-  border: none;
+.gaz1 {
+  left: 11%;
+}
+
+.tormoz1 {
+  left: 15%;
 }
 
 .container .gaz2,
 .container .tormoz2 {
-  /* background-color: white;
-  box-shadow: 1px 5px 5px 1px white; */
+
   background-color: rgb(245, 209, 7);
   box-shadow: 1px 5px 5px 1px rgb(209, 245, 5);
 }

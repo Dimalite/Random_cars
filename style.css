@@ -16,7 +16,6 @@ h1 {
   padding-top: 0px;
 }
 
-
 #image > img {
   float: left;
   margin-right: 30px;
@@ -36,35 +35,31 @@ h1 {
 .start1 {
   position: fixed;
   position: absolute;
-  top: 40%;
+  top: 68%;
   left: 290px;
   cursor: pointer;
   border: 1px solid rgb(6, 253, 47);
   background-color: rgb(6, 253, 47);
   box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
 }
-
-
-.gaz1 {
+.gaz1,
+.tormoz1 {
+  top: 68%;
   position: absolute;
-  top: 58%;
-  left: 24.4%;
   border: none;
   cursor: pointer;
 }
 
+.gaz1 {
+  left: 11%;
+}
 .tormoz1 {
-  position: absolute;
-  top: 62%;
-  left: 12%;
-  cursor: pointer;
-  border: none;
+  left: 15%; 
 }
 
 .container .gaz1,
 .container .tormoz1 {
-  /* background-color: white;
-  box-shadow: 1px 5px 5px 1px white; */
+
   background-color: rgb(245, 209, 7);
   box-shadow: 1px 5px 5px 1px rgb(209, 245, 5);
 }
@@ -143,116 +138,3 @@ h1 {
 .dimen {
   padding-left: 150px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-  position: relative;
-  width: 200%;
-  max-width: 600px;
-  padding-top: 10px;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.start{
-  position: fixed;
-  position: absolute;
-  top: 19%;
-  left: 48.9%;
-  cursor: pointer;
-   border: 1px solid rgb(6, 253, 47);
-   background-color: rgb(6, 253, 47);
-   box-shadow: 1px 5px 5px 1px rgb(6, 253, 47);
-}
-
-.place .gaz {
-  position: absolute;
-  top: 45.6%;
-  left: 32.3%;
-  border: none;
-  cursor: pointer;
-}
-
-.place .tormoz {
-  position: absolute;
-  top: 55.8%;
-  left: 18.3%;
-  cursor: pointer;
-  border: none;
-}
-
-
-
-.container .gaz:hover:hover,
-.container .tormoz:hover {
-  background-color: rgb(253, 76, 6);
-  box-shadow: 1px 5px 5px 1px rgb(253, 43, 6);
-}
-
-.container .gaz,
-.container .tormoz {
-  background-color: white;
-  box-shadow: 1px 5px 5px 1px white;
-}
-
-

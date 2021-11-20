@@ -11,8 +11,9 @@ let dimen = document.querySelectorAll('.dimen');
 function replace1() {
   myGaz.className += " gaz1";
   myTormoz.className += " tormoz1";
-  photo.setAttribute('src', './img/audi-tt-n8-10.jpg');
   start.setAttribute('class', 'start1');
+  photo.setAttribute('src', './img/audi-tt-n8-10.jpg');
+  
   txt.innerText = ' Audi TT 8N';
   test(audi);
   characters[0].innerHTML = 'Fuel: ' + audi.fuel;
@@ -30,10 +31,11 @@ function replace1() {
 }
 function replace2() {
   photo.setAttribute('src', './img/mercedes EQC.jpg');
-  myGaz.className += " gaz2";
-  myTormoz.className += " tormoz2";
-  start.classList.add('start2');
-  start.setAttribute('class', 'start2');
+  myGaz.className += " gaz1";
+  myTormoz.className += " tormoz1";
+  start.setAttribute('class', 'start1');
+  start.classList.add('start');
+
   txt.innerText = 'Mercedes EQC';
   test(mercEQC);
   characters[0].innerHTML = 'Fuel: ' + mercEQC.fuel;
@@ -50,9 +52,9 @@ function replace2() {
 
 function replace3() {
   photo.setAttribute('src', './img/m-b e 220 d4Matic all-Terrain Luxury.jpg');
-  myGaz.className += " gaz3";
-  myTormoz.className += " tormoz3";
-  start.setAttribute('class', 'start3');
+  myGaz.className += " gaz1";
+  myTormoz.className += " tormoz1";
+  start.setAttribute('class', 'start1');
   txt.innerText = 'Mercedes-Benz e 220 d4Matic';
   test(merc220);
   characters[0].innerHTML = 'Fuel: ' + merc220.fuel;
@@ -69,9 +71,9 @@ function replace3() {
 
 function replace4() {
   photo.setAttribute('src', './img/MzafcKltVQR.jpg');
-  myGaz.className += " gaz4";
-  myTormoz.className += " tormoz4";
-  start.setAttribute('class', 'start4');
+  myGaz.className += " gaz1";
+  myTormoz.className += " tormoz1";
+  start.setAttribute('class', 'start1');
   txt.innerText = 'Ford Aspire ';
   test(ford);
   characters[0].innerHTML = 'Fuel: ' + ford.fuel;
@@ -88,9 +90,9 @@ function replace4() {
 
 function replace5() {
   photo.setAttribute('src', './img/Fiat-500X_Sport.jpg');
-  myGaz.className += " gaz5";
-  myTormoz.className += " tormoz5";
-  start.setAttribute('class', 'start5');
+  myGaz.className += " gaz1";
+  myTormoz.className += " tormoz1";
+  start.setAttribute('class', 'start1');
   txt.innerText = 'Fiat-500X_Sport';
   test(fiat);
   characters[0].innerHTML = 'Fuel: ' + fiat.fuel;

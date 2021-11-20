@@ -67,58 +67,8 @@ ignition.setAttribute('src', './sounds/dvigatel.mp3');
 ignition.volume = 1;
 // ignition.play();
 // ...........................................................................
-
-
-
-
-// function replace2() {
-//   photo.setAttribute('src', './img/mercedes EQC.jpg');
-//   myGaz.className += " gaz2";
-//   myTormoz.className += " tormoz2";
-//   start.classList.add('start2');
-//   start.setAttribute('class', 'start2');
-//   txt.innerText = 'Mercedes EQC';
-//   test(mercEQC);
-// }
-
-// function replace3() {
-//   photo.setAttribute('src', './img/m-b e 220 d4Matic all-Terrain Luxury.jpg');
-//   myGaz.className += " gaz3";
-//   myTormoz.className += " tormoz3";
-//   start.setAttribute('class', 'start3');
-//   txt.innerText = 'Mercedes-Benz e 220 d4Matic';
-//   test(merc220);
-// }
-// function replace4() {
-//   photo.setAttribute('src', './img/MzafcKltVQR.jpg');
-//   myGaz.className += " gaz4";
-//   myTormoz.className += " tormoz4";
-//   start.setAttribute('class', 'start4');
-//   txt.innerText = 'MzafcKltVQR';
-//   test(Mzafck);
-  
-// }
-// function replace5() {
-//   photo.setAttribute('src', './img/Fiat-500X_Sport.jpg');
-//   myGaz.className += " gaz5";
-//   myTormoz.className += " tormoz5";
-//   start.setAttribute('class', 'start5');
-//   txt.innerText = 'Fiat-500X_Sport';
-//   test(fiat);
-//  characters[0].innerHTML = 'Fuel: ' + fiat.fuel;
-// }
-
 const myTormoz = document.getElementById('Z');
 const myGaz = document.getElementById('gazon')
-// function replace1() {
-//   myGaz.className += " gaz1";
-//   myTormoz.className += " tormoz1";
-//   photo.setAttribute('src', './img/audi-tt-n8-10.jpg');
-//   start.setAttribute('class', 'start1');
-//   txt.innerText = ' Audi TT 8N';
-//   test(audi);
-// }
-
 const tank = document.querySelector('.tank');
 const gaugeElement = document.querySelector('.gauge');
 let element = document.getElementById("myButton");
@@ -129,6 +79,7 @@ let start = document.querySelector('.start');
 // +++++ Main Function +++++++++++++
 
 function test(car) {
+  noise.play();
   let start = document.getElementById('start');
   start.onclick = starterOn;
 
